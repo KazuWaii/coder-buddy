@@ -1,6 +1,6 @@
 import json
 
-from app.llm import chat
+from app.llm import chat_json
 from app.schemas import ProjectPlan
 
 PLANNER_SYSTEM_PROMPT = (
@@ -13,9 +13,8 @@ PLANNER_SYSTEM_PROMPT = (
 
 
 def create_plan(request):
-    result = chat([
+    result = chat_json([
         {"role": "system", "content": PLANNER_SYSTEM_PROMPT},
         {"role": "user", "content": request},
     ])
-    data = json.loads(result.content)
-    return ProjectPlan(**data)
+    return ProjectPlan(**result)
