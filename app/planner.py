@@ -1,5 +1,3 @@
-import json
-
 from app.llm import chat_json
 from app.schemas import ProjectPlan
 
