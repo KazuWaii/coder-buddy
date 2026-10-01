@@ -4,6 +4,8 @@ A multi-agent coding assistant: describe an app in plain English, and a **Planne
 
 This is Project 3 from the codebasics "5 AI Projects That Will Matter in 2026" challenge, inspired by the open-source [Coder Buddy](https://github.com/codebasics/coder-buddy) project. Standalone repo, independent from [ds-rpc-01](https://github.com/KazuWaii/ds-rpc-01) and [finsolve-voice-agent](https://github.com/KazuWaii/finsolve-voice-agent).
 
+**Live app:** https://coder-buddy-xunnwmhjq2jjpp2pueekrn.streamlit.app/
+
 ## Architecture
 
 ```
