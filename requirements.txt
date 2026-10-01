@@ -1,0 +1,6 @@
+groq>=1.7.0
+langgraph>=1.2.12
+ollama>=0.6.2
+pydantic>=2.9.0
+python-dotenv>=1.2.3
+streamlit>=1.51.0
